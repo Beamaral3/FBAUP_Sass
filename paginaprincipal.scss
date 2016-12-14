@@ -1,0 +1,56 @@
+//---IMPORTS----------
+@import "_vars";
+@import "_mixins";
+
+//---FONT-------------
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+//---BODY----------
+
+body {
+    background-image: url("imagens/background.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+  @include margens;
+  top: 10px;
+    img{
+      margin-left: 50px;
+      width: 250px;
+      position:absolute;
+    }
+    ul{
+      @include menudef;
+    }
+    li{
+      margin:-20px 0px 0px 20px;
+      list-style: none;
+    }
+}
+
+section{
+  height: 580px;
+  display: flex;
+  align-items:flex-end;
+  h1{
+    @include titletext;
+  }
+}
+
+footer{
+  @include margens;
+  bottom: 10px;
+    ul{
+      @include menudef;
+    }
+    li{
+      margin:0px 0px 0px 20px;
+      list-style: none;
+    }
+    li:first-child{
+      margin:0px 50px 0px 10px;
+    }
+}

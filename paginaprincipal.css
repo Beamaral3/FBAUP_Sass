@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+body {
+  background-image: url("imagens/background.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  position: fixed;
+  width: 96%;
+  top: 10px;
+}
+
+header img {
+  margin-left: 50px;
+  width: 250px;
+  position: absolute;
+}
+
+header ul {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 13pt;
+  color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header li {
+  margin: -20px 0px 0px 20px;
+  list-style: none;
+}
+
+section {
+  height: 580px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+section h1 {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  margin: 0px 0px 0px 80px;
+  font-size: 70px;
+}
+
+footer {
+  position: fixed;
+  width: 96%;
+  bottom: 10px;
+}
+
+footer ul {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 13pt;
+  color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer li {
+  margin: 0px 0px 0px 20px;
+  list-style: none;
+}
+
+footer li:first-child {
+  margin: 0px 50px 0px 10px;
+}

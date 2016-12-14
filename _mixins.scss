@@ -1,0 +1,20 @@
+@mixin margens {
+  position: fixed;
+  width: 96%;
+}
+@mixin menudef{
+  font-family: $textfont;
+  font-weight: bold;
+  font-size: $menusize;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+@mixin titletext{
+  font-family: $textfont;
+  color: white;
+  margin: 0px 0px 0px 80px;
+  font-size: $titlesize;
+}
