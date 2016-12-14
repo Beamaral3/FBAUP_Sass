@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 body {
   background-image: url("imagens/background.png");
-  background-size: 100% auto;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center center;
 }
 
 header {
