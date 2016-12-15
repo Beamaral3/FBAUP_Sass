@@ -8,7 +8,7 @@
 //---BODY----------
 
 body {
-    background-image: url("imagens/background.png");
+
     background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -38,6 +38,14 @@ section{
   align-items:flex-end;
   h1{
     @include titletext;
+  }
+  h2{
+    @include subtitle;
+  }
+  h3{
+    @include text;
+    font-size: 14pt;
+    color: white;
   }
 }
 

@@ -5,7 +5,7 @@
 @mixin menudef{
   font-family: $textfont;
   font-weight: bold;
-  font-size: $menusize;
+  font-size: 13pt;
   color: white;
   display: flex;
   justify-content: flex-end;
@@ -14,7 +14,20 @@
 
 @mixin titletext{
   font-family: $textfont;
+  font-size: 60pt;
   color: white;
   margin: 0px 0px 0px 80px;
-  font-size: $titlesize;
+}
+
+@mixin subtitle {
+  font-family: $textfont;
+  font-size:30pt;
+  color: white;
+  margin: 0px 0px 10px 80px;
+}
+
+@mixin text {
+  font-family: $textfont;
+  font-size: 14pt;
+  margin: 0px 0px 10px 80px;
 }
