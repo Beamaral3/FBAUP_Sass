@@ -31,3 +31,16 @@
   font-size: 14pt;
   margin: 0px 0px 10px 80px;
 }
+
+@mixin boxes {
+  width: 422px;
+  height: 300px;
+  color: white;
+  font-family: $textfont;
+  font-size: 24pt;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
